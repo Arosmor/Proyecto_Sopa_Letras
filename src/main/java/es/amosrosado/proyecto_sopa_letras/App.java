@@ -14,7 +14,7 @@ public class App extends Application {
     @Override
     public void start(Stage stage) {
         
-        short tamXPantalla = 500;
+        short tamXPantalla = 700;
         short tamYPantalla = 500;
         
         paneRoot = new GridPane();
@@ -24,7 +24,7 @@ public class App extends Application {
 
         SopaDeLetras sopaDeLetras = new SopaDeLetras();
 
-        sopaDeLetras.colocarPalabra("amos");
+        sopaDeLetras.colocarPalabra("AMOS");
         sopaDeLetras.mostrarTableroLetras();
         
         Tablero tablero = new Tablero(sopaDeLetras);

@@ -14,7 +14,6 @@ public class SopaDeLetras {
     short tamXTablero = 20;
     short tamYTablero = 10;
     char[][] tableroLetras;
-         
     /*
     Metodo Constructor
     */
