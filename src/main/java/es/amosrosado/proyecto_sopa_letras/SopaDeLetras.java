@@ -6,19 +6,21 @@ import java.util.Random;
 
 public class SopaDeLetras {
     /*
-    Variables
+        Variables
     */
-    String abecedario = "ABCDEFGHIJKLMNOPQRSTUVWXYZ";
+    String abecedario = "ABCDEFGHIJKLMNOPQRSTUVXYZ";
     
     Random random = new Random();
     short tamXTablero = 20;
     short tamYTablero = 10;
     char[][] tableroLetras;
     /*
-    Metodo Constructor
+        Metodo Constructor
     */
     public SopaDeLetras() {
-        // Crear tablero con las letras aleatorias
+        /*
+            Crear tablero con las letras aleatorias
+        */
         tableroLetras = new char[tamXTablero][tamYTablero];
         for(int x=0; x<tamXTablero; x++) {
             for(int y=0; y<tamYTablero; y++) {
