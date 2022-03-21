@@ -43,7 +43,7 @@ public class Tablero extends GridPane {
                 
             labelLetra.setOnMouseClicked((event) -> {
                 
-                labelLetra.
+//                labelLetra.
 //                if(labelLetra == sopaDeLetras.colocarPalabra()) {
 ////                    
 //                }

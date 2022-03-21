@@ -24,7 +24,7 @@ public class App extends Application {
 
         SopaDeLetras sopaDeLetras = new SopaDeLetras();
 
-        sopaDeLetras.colocarPalabra("CRISTIAN");
+        sopaDeLetras.colocarPalabra("AMOS");
         sopaDeLetras.mostrarTableroLetras();
         
         Tablero tablero = new Tablero(sopaDeLetras);
